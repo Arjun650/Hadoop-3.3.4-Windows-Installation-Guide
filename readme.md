@@ -265,6 +265,11 @@ To confirm everything is set up correctly, follow these verification steps:
   - Preview
        <br /> <p align="left"><img src="./screenshots/Screenshot 2025-07-28 195250.png" width=80% ></p>
   
+ - Verify execution:
+   - Execute the command `jps`
+   - You should get the following output:
+   - Preview: <br /> <p align="left"><img src="./screenshots/Screenshot 2025-07-28 203141.png" width=85% height=85%></p>
+   - If there are any one of them missing, check the respective window of the missed application to check for errors. There should not be any `SHUTDOWN_MSG: Shutting down %application% at %SystemName%/%IP_Address%`
 ---
 ### Accessing the UI:
 
