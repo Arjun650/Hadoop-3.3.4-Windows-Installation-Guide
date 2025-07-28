@@ -26,7 +26,7 @@ Make sure you have the following files ready before starting the installation pr
 [jdk]: https://drive.google.com/file/d/1MG3shs65Zpb-ZR_11GUM3WD7VSoGENfQ/view
 [winrar]: https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-620.exe
 [hadoop]: https://hadoop.apache.org/release/3.3.4.html
-[binzip]: ./resources/bin.zip
+[binzip]: https://github.com/Arjun650/Hadoop-3.3.4-Windows-Installation-Guide/blob/main/resources/bin.zip
 
 ## 🔧 Procedure
 
