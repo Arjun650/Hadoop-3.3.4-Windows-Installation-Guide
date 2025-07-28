@@ -59,8 +59,9 @@ Make sure you have the following files ready before starting the installation pr
    - Windows 10 Preview - <br /> <p align="left"><br/><img src="./screenshots/EnvVarWin10.png" width=80% ></p>
 
 2. Locate both sections:
-   - **User variables for `%YOUR_USERNAME%`**
-   - **System variables**
+   - `User variables for %YOUR_USERNAME%`
+   - `System variables`
+   - Click on `New` on both the section
       - preview
        <p align="left"><br/><img src="./screenshots/environmentVariable.png" width=80% ></p>
    - Now create two environment variables with the following values in the before mentioned places:
