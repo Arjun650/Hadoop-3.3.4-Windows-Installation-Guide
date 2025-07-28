@@ -51,8 +51,8 @@ Make sure you have the following files ready before starting the installation pr
 ### 🧩 Step 3: Set Environment Variables
 
    <br/>
-1. Type `"Edit the system environment variables"` in the Start Menu. 
-   > 📝 Make sure it is not `"Edit Environment variables for your account"`
+1. Type `Edit the system environment variables` in the Start Menu. 
+   > 📝 Make sure it is not `Edit Environment variables for your account`
 
 - Windows 11 Preview - <br /> <p align="left"><br/><img src="./screenshots/envVarwin11.png" width=80% ></p>
 - Windows 10 Preview - <br /> <p align="left"><br/><img src="./screenshots/EnvVarWin10.png" width=80% ></p>
