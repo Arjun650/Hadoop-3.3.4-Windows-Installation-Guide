@@ -192,7 +192,7 @@ The `yarn-site.xml` file contains configuration settings for **YARN** (Yet Anoth
 
 ---
 
-#### 1. Open the File `C:\hadoop-3.3.4\etc\hadoop\hdfs-site.xml`
+#### 1. Open the File `C:\hadoop-3.3.4\etc\hadoop\yarn-site.xml`
 
 > Open the file with **Notepad** or **VSCode**
 
