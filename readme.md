@@ -47,7 +47,7 @@ Make sure you have the following files ready before starting the installation pr
 ✅ After extraction, you should have the following folder:
 
 <p align="left">
-  <img src="./screenshots/hadoopincdrive.png" alt="Hadoop in C Drive" width="40%"/>
+  <img src="./screenshots/hadoopincdrive.png" alt="Hadoop in C Drive" width="80%"/>
 </p>
 
 ### 🧩 Step 3: Set Environment Variables
@@ -55,14 +55,14 @@ Make sure you have the following files ready before starting the installation pr
 1. Type `"Edit the system environment variables"` in the Start Menu. 
    > 📝 Make sure it is not `"Edit Environment variables for your account"`
 
-   - Windows 11 Preview - <br /> <p align="left"><br/><img src="./screenshots/envVarwin11.png" width=40% ></p>
-   - Windows 10 Preview - <br /> <p align="left"><br/><img src="./screenshots/EnvVarWin10.png" width=40% ></p>
+   - Windows 11 Preview - <br /> <p align="left"><br/><img src="./screenshots/envVarwin11.png" width=80% ></p>
+   - Windows 10 Preview - <br /> <p align="left"><br/><img src="./screenshots/EnvVarWin10.png" width=80% ></p>
 
 2. Locate both sections:
    - **User variables for `%YOUR_USERNAME%`**
    - **System variables**
       - preview
-       <p align="left"><br/><img src="./screenshots/environmentVariable.png" width=40% ></p>
+       <p align="left"><br/><img src="./screenshots/environmentVariable.png" width=80% ></p>
    - Now create two environment variables with the following values in the before mentioned places:
       - Variable 1:
          - Variable name		: `JAVA_HOME`
@@ -71,14 +71,14 @@ Make sure you have the following files ready before starting the installation pr
          - Variable name		: `HADOOP_HOME`
          - Variable value	: `C:\hadoop-3.3.4` 
    - It should look like this after completion
-      <p align="left"><br/><img src="./screenshots/afterEnvVar.png" width="40%"></p>
+      <p align="left"><br/><img src="./screenshots/afterEnvVar.png" width="80%"></p>
 
    - Now, under both the variable lists, open `Path` (either by double-clicking on it or select it and click `Edit`), add the following directories to the list and click on `OK`:
       -  `C:\Program Files\Java\jdk1.8.0_361\bin`
       -  `C:\hadoop-3.3.4\bin`
       -  `C:\hadoop-3.3.4\sbin`
    - It should look like this:
-      - Preview: <br /> <p align="left"><img src="./screenshots/afterEnvVar.png" width=40%></p>
+      - Preview: <br /> <p align="left"><img src="./screenshots/afterEnvVar.png" width=80%></p>
 
    - Click on `OK` again to close the environment variable window.
 
@@ -234,13 +234,13 @@ To confirm everything is set up correctly, follow these verification steps:
 
 - Preview <br/>
 
-   <p align="left"><img src="./screenshots/cmdRunAsAdmin.png" width=40%></p>
+   <p align="left"><img src="./screenshots/cmdRunAsAdmin.png" width=80%></p>
 
 ---
 
 - Run the command `hdfs` it should output like the one below:
   - Preview: <br /> 
-      <p align="left"><img src="./screenshots/hdfs.png" width=40%></p>
+      <p align="left"><img src="./screenshots/hdfs.png" width=80%></p>
   - If there is an `Error: JAVA_HOME is incorrectly set` message just after you run the command, you might have INCORRECTLY set the `Environment variable` or `Path` or `hadoop-env.cmd` steps. Go back and verify.
 
 - Format namenode:
@@ -248,7 +248,7 @@ To confirm everything is set up correctly, follow these verification steps:
   - The output should be like in the following - [Link](./cmdOutput/namenodeFormatsuccess.txt)
   - Preview: <br /> 
 
-      <p align="left"><img src="./screenshots/namenodeFormat.png" width=40%></p>
+      <p align="left"><img src="./screenshots/namenodeFormat.png" width=80%></p>
 
 
 - Run the cluster
@@ -259,11 +259,11 @@ To confirm everything is set up correctly, follow these verification steps:
     - Apache Hadoop Distribution - yarn resourcemanager
     - Apache Hadoop Distribution - yam nodemanager
   - You may get the following window during first-time use:
-    - Preview (Reference): <br /> <p align="left"><img src="./screenshots/JavaFirewallPrompt.webp" width=40% ></p>
+    - Preview (Reference): <br /> <p align="left"><img src="./screenshots/JavaFirewallPrompt.webp" width=80% ></p>
     - Tick both `Private networks...` and `Public networks...` and click on `Allow access`
   - Give it a few moments to initialize.
   - Preview
-       <br /> <p align="left"><img src="./screenshots/Screenshot 2025-07-28 195250.png" width=40% ></p>
+       <br /> <p align="left"><img src="./screenshots/Screenshot 2025-07-28 195250.png" width=80% ></p>
   
 ---
 ### Accessing the UI:
