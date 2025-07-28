@@ -280,7 +280,7 @@ To confirm everything is set up correctly, follow these verification steps:
     - Apache Hadoop Distribution - hadoop namenode
     - Apache Hadoop Distribution - hadoop datanode
     - Apache Hadoop Distribution - yarn resourcemanager
-    - Apache Hadoop Distribution - yam nodemanager
+    - Apache Hadoop Distribution - yarn nodemanager
   - You may get the following window during first-time use:
     - Preview (Reference): <br /> <p align="left"><img src="./screenshots/JavaFirewallPrompt.webp" width=80% ></p>
     - Tick both `Private networks...` and `Public networks...` and click on `Allow access`
