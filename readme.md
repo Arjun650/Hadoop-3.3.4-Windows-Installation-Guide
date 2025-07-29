@@ -239,8 +239,6 @@ This step ensures that Hadoop knows the correct path to your installed JDK and r
 
 ---
 
----
-
 ### ✅ Step 11: Verify Your Hadoop Installation
 
 To confirm everything is set up correctly, follow these verification steps:
